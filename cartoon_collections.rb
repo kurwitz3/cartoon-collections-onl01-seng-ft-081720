@@ -12,7 +12,7 @@ end
 def long_planeteer_calls(array)
      new_array =[]
      array.each do |x|
-       new_array << x.count
+       x.size
      
       z = new_array.find{|item| item.include?(5)}
   end
