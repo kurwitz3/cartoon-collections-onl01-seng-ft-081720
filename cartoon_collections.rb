@@ -21,6 +21,7 @@ end
 def find_the_cheese(array)
   new_array = ["cheddar","gouda","camebert"]
   array.any?{|cheese| new_array.include?(cheese)}
+  return cheese
 end
   
 
