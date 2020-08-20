@@ -20,8 +20,11 @@ return false
 end
 def find_the_cheese(array)
   new_array = ["cheddar","gouda","camebert"]
-  array.any?{|cheese| new_array.include?(cheese)}
+  result = new_array.find{|cheese| new_array.include?(cheese)}
 
 end
   
 
+sharks = ["Hammerhead", "Great White", "Tiger", "Whale"]
+result = sharks.find {|item| item.include?("a")}
+print result
