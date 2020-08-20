@@ -12,7 +12,7 @@ end
 def long_planeteer_calls(array)
      new_array =[]
      array.each do |x|
-       x.size
+       return true  if x.size > 4 
      
       z = new_array.find{|item| item.include?(5)}
   end
