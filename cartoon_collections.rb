@@ -20,7 +20,7 @@ return false
 end
 def find_the_cheese(array)
   new_array = ["cheddar","gouda","camebert"]
-  result = new_array.find{|cheese| new_array.include?(cheese)}
+  result = new_array.find{|cheese| array.include?(cheese)}
 
 end
   
