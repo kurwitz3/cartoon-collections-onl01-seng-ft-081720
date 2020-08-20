@@ -25,6 +25,3 @@ def find_the_cheese(array)
 end
   
 
-sharks = ["Hammerhead", "Great White", "Tiger", "Whale"]
-result = sharks.find {|item| item.include?("a")}
-print result
