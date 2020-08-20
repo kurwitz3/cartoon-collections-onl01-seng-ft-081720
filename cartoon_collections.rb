@@ -12,7 +12,10 @@ end
 def long_planeteer_calls(array)
      new_array =[]
      array.each do |x|
-      return true if x.size > 4
+     if x.size > 4
+       return true 
+       elsif x.size <= 4 
+       return false 
         
 end
 end
