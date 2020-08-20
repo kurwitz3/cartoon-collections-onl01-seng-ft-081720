@@ -18,4 +18,8 @@ def long_planeteer_calls(array)
         end
 return false 
 end
-find_the_cheese(array)
+def find_the_cheese(array)
+  new_array = ["cheddar","gouda","camebert"]
+  
+  
+
